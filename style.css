@@ -149,7 +149,7 @@ h4 {
     text-align: right;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 920px) and (min-width: 640px) {
     * {
         text-align: center;
     }
@@ -170,6 +170,36 @@ h4 {
 
     #mainlogo {
         margin-left: 5px;
+    }
+
+    .nav {
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 639px) {
+    * {
+        text-align: center;
+    }
+    .book-img {
+        float: none;
+        padding: 0px;
+        margin: 0px;
+        margin-right: 20px;
+    }
+
+    p, pre {
+        text-align: left;
+    }
+
+    #header {
+        text-align: left;
+    }
+
+    #mainlogo {
+        margin-left: 5px;
+        display: none;
     }
 
     .nav {
