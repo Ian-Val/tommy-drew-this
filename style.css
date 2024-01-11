@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.break {
+    height: 10px;
+    clear: both;
+}
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0px 2px 4px rgb(66, 66, 66);
+}
+
+button:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 4px 10px gray;
+    transition: transform .2s, box-shadow .2s;
+    
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 5px;
+    color: rgb(60, 60, 60);
+}
+#header {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 10px lightgray;
+    margin: 0px;
+    height: 50px;
+}
+#socials {
+    padding: 0px;
+    position: fixed;
+    width: 105px;
+    bottom: 10px;
+    right: 50%;
+    transform: translate(50%, 0%);
+    border-radius: 15px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    box-shadow: 0px 1px 3px lightgray;
+    
+}
+
+#mainlogo {
+    width: 90px;
+    margin-left: 10px;
+}
+
+#mainlogo:hover {
+    transform:scale(1.1,1.1);
+    transition:transform .2s;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    float:right;
+}
+#body {
+    float: none;
+    padding: 15px;
+}
+#books {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav:hover {
+    background-color: lightgray;
+    font-size: 1.1em;
+    transition: font-size .2s;
+    transition: background-color .2s;
+}
+
+#contact {
+    color: white;
+    background-color: black;
+}
+
+.social-link {
+    margin: 0px;
+    width: 30px;
+    height: 20;
+}
+
+.social-img{
+    margin: 2.5px;
+    width: 30px;
+    float: left;
+    transform: scale(1,1);
+}
+.social-img:hover {
+    transform: scale(1.1,1.1);
+    transition: transform .2s;
+}
+
+.book-img {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+}
+
+#footer {
+    padding: 17px;
+    background-color: black;
+    height: 55px;
+    color: whitesmoke;
+    text-align: right;
+}
