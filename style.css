@@ -139,6 +139,7 @@ h4 {
     padding: 0px;
     margin: 0px;
     margin-right: 20px;
+    width: 400px;
 }
 
 #footer {
@@ -147,6 +148,12 @@ h4 {
     height: 55px;
     color: whitesmoke;
     text-align: right;
+    
+}
+
+#footer {
+    color: black;
+    background-color: white;
 }
 
 @media (max-width: 920px) and (min-width: 640px) {
@@ -158,6 +165,7 @@ h4 {
         padding: 0px;
         margin: 0px;
         margin-right: 20px;
+        width: 90%;
     }
 
     p, pre {
@@ -176,6 +184,11 @@ h4 {
         width: 80px;
         height: 50px;
     }
+    
+    #footer {
+        color: black;
+        background-color: white;
+    }
 }
 
 @media (max-width: 639px) {
@@ -187,6 +200,7 @@ h4 {
         padding: 0px;
         margin: 0px;
         margin-right: 20px;
+        width: 90%;
     }
 
     p, pre {
@@ -205,5 +219,16 @@ h4 {
     .nav {
         width: 80px;
         height: 50px;
+    }
+
+    #socials {
+        left: 0%;
+        transform: translate(10px, 0%);
+    }
+
+    #footer {
+        float: right;
+        color: black;
+        background-color: white;
     }
 }
