@@ -148,3 +148,32 @@ h4 {
     color: whitesmoke;
     text-align: right;
 }
+
+@media (max-width: 920px) {
+    * {
+        text-align: center;
+    }
+    .book-img {
+        float: none;
+        padding: 0px;
+        margin: 0px;
+        margin-right: 20px;
+    }
+
+    p, pre {
+        text-align: left;
+    }
+
+    #header {
+        text-align: left;
+    }
+
+    #mainlogo {
+        margin-left: 5px;
+    }
+
+    .nav {
+        width: 80px;
+        height: 50px;
+    }
+}
