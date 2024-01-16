@@ -8,6 +8,9 @@ body {
     background-color: white;
 }
 
+.centered {
+    text-align: center !important;
+}
 a {
     text-decoration: none;
     color: black;
@@ -202,6 +205,9 @@ h4 {
     #header {
         text-align: left;
     }
+    .port-img {
+        width: 100%;
+    }
 
     #mainlogo {
         margin-left: 5px;
@@ -215,6 +221,11 @@ h4 {
     #footer {
         color: black;
         background-color: white;
+    }
+    .print-container {
+        width: 50%;
+        text-align: center;
+        padding-bottom: 40px;
     }
 }
 
@@ -230,6 +241,10 @@ h4 {
         width: 90%;
     }
 
+    .port-img {
+        width: 100%;
+    }
+
     p, pre {
         text-align: left;
     }
@@ -240,12 +255,17 @@ h4 {
 
     #mainlogo {
         margin-left: 5px;
-        display: none;
+        width: 80px;
+        float: left;
     }
 
     .nav {
-        width: 80px;
-        height: 50px;
+        width: 65px;
+        font-size: 12px;
+    }
+
+    .header {
+        height: 30px;
     }
 
     #socials {
@@ -257,5 +277,10 @@ h4 {
         float: right;
         color: black;
         background-color: white;
+    }
+    .print-container {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
     }
 }
