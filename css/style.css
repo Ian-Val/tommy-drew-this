@@ -7,10 +7,13 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: black;
     color: black;
 }
 
+main {
+    background-color: whitesmoke;
+}
 nav {
     z-index: 10;
     width: 100%;
@@ -111,4 +114,27 @@ footer p {
 }
 ul {
     margin-top: 30px;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+}
+
+input {
+    padding: 8px;
+    margin: 8px;
+}
+section {
+    margin: 20px;
+}
+
+p {
+    margin: 10px;
+    text-align: justify;
+}
+
+h3 {
+    margin: 20px;
+    margin-top: 50px;
 }
