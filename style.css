@@ -1,290 +1,100 @@
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
 }
 
 body {
-    margin: 0px;
-    background-color: white;
-}
-
-.centered {
-    text-align: center !important;
-}
-a {
-    text-decoration: none;
+    background-color: whitesmoke;
     color: black;
 }
 
-.break {
-    height: 10px;
-    clear: both;
-}
-
-p {
-    margin: 4px 0px 8px 0px;
-}
-button {
-    width: 200px;
-    height: 40px;
-    border: none;
-
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    border-radius: 20px;
-    cursor: pointer;
-    margin: 10px;
-    box-shadow: 0px 2px 4px rgb(66, 66, 66);
-}
-
-.pic-scroller {
-    text-align: center;
-}
-
-.port-img {
-    float: left;
+nav {
+    z-index: 10;
+    width: 100%;
     padding: 10px;
-    width: 40%;
-}
-
-button:hover {
-    transform: scale(1.1,1.1);
-    box-shadow: 0px 4px 10px gray;
-    transition: transform .2s, box-shadow .2s;
-    
 }
 
 h1 {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: 320px;
     text-align: center;
-    font-weight: bold;
-}
-
-h3 {
-    font-weight: bold;
-    font-size: x-large;
-    color: black;
-    margin-bottom: 5px;
-}
-.artist-name {
-    text-align: center !important;
-    font-size: 30px;
-}
-
-h4 {
-    margin-top: 5px;
-    color: rgb(60, 60, 60);
-}
-#header {
-    background-color: whitesmoke;
-    box-shadow: 1px 1px 10px lightgray;
-    margin: 0px;
-    height: 50px;
-}
-#socials {
-    padding: 0px;
-    position: fixed;
-    width: 105px;
-    bottom: 10px;
-    right: 50%;
-    transform: translate(50%, 0%);
-    border-radius: 15px;
-    margin: 0px;
-    text-align: center;
-    vertical-align: middle;
-    background-color: white;
-    box-shadow: 0px 1px 3px lightgray;
-    
-}
-
-#mainlogo {
-    width: 90px;
-    margin-left: 10px;
-}
-
-#mainlogo:hover {
-    transform:scale(1.1,1.1);
-    transition:transform .2s;
-}
-
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 50px;
-    float:right;
-    font-weight: bold;
-}
-#body {
-    float: none;
-    padding: 15px;
-    margin-bottom: 30px;
-}
-#active {
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: rgb(228, 228, 228);    
-}
-
-.nav:hover, #active:hover{
-    background-color: lightgray;
-    font-size: 1.1em;
-    transition: font-size .2s;
-    transition: background-color .2s;
-}
-
-#contact {
     color: white;
-    background-color: black;
-    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    text-transform: uppercase;
+    font-size: 70px;
 }
 
-.social-link {
-    margin: 0px;
-    width: 30px;
-    height: 20;
+h2 {
+    text-transform: uppercase;
 }
-
-.social-img{
-    margin: 2.5px;
-    width: 30px;
-    float: left;
-    transform: scale(1,1);
+nav {
+    position: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(0,0,0,0));
 }
-.social-img:hover {
-    transform: scale(1.1,1.1);
-    transition: transform .2s;
-}
-
-.book-img {
-    float: left;
-    padding: 0px;
-    margin: 0px;
-    margin-right: 20px;
-    width: 400px;
-}
-
-#footer {
-    padding: 17px;
-    background-color: black;
-    height: 55px;
-    color: whitesmoke;
-    text-align: right;
-    
-}
-
-#footer {
-    color: black;
-    background-color: white;
-}
-
-.print-img {
-    width: 200px;
-    margin: 0px;
-}
-
-.print-container {
-    width: 25%;
+nav a {
+    padding: 10px;
+    display: inline-block;
     text-align: center;
-    float: left;
-    margin: 0px;
-}
-@media (max-width: 920px) and (min-width: 640px) {
-    * {
-        text-align: center;
-    }
-    .book-img {
-        float: none;
-        padding: 0px;
-        margin: 0px;
-        margin-right: 20px;
-        width: 90%;
-    }
-
-    p, pre {
-        text-align: left;
-    }
-
-    #header {
-        text-align: left;
-    }
-    .port-img {
-        width: 100%;
-    }
-
-    #mainlogo {
-        margin-left: 5px;
-    }
-
-    .nav {
-        width: 80px;
-        height: 50px;
-    }
-    
-    #footer {
-        color: black;
-        background-color: white;
-    }
-    .print-container {
-        width: 50%;
-        text-align: center;
-        padding-bottom: 40px;
-    }
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
 }
 
-@media (max-width: 639px) {
-    * {
-        text-align: center;
-    }
-    .book-img {
-        float: none;
-        padding: 0px;
-        margin: 0px;
-        margin-right: 20px;
-        width: 90%;
-    }
+nav a:hover {
+    background-color: rgba(0, 0, 0, .4  );
+    transition: background-color .3s;
+}
 
-    .port-img {
-        width: 100%;
-    }
+main {
+    text-align: center;
+    padding-top: 50px;
+}
 
-    p, pre {
-        text-align: left;
-    }
+.object-fit {
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+    z-index: -10;
+}
 
-    #header {
-        text-align: left;
-    }
+.object-fit img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 10px; 
+}
 
-    #mainlogo {
-        margin-left: 5px;
-        width: 40px;
-        float: left;
-    }
+li {
+    display: inline-block;
+    margin: 30px;
+}
 
-    .nav {
-        width: 55px;
-        font-size: 10px;
-    }
+li img {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.445);
+}
 
-    .header {
-        height: 30px;
-    }
+li a {
+    color: black;
+    text-decoration: none;
+}
 
-    #socials {
-        left: 0%;
-        transform: translate(10px, 0%);
-    }
+footer {
+    text-align: center;
+    padding: 20px;
+}
 
-    #footer {
-        float: right;
-        color: black;
-        background-color: white;
-    }
-    .print-container {
-        width: 100%;
-        text-align: center;
-        padding-bottom: 40px;
-    }
+footer a {
+    color: black;
+
+}
+ul {
+    margin-top: 30px;
 }
