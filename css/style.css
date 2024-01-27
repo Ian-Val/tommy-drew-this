@@ -38,12 +38,10 @@ nav {
 }
 nav a {
     padding: 10px;
-    display: inline-block;
     text-align: center;
     color: white;
     border-radius: 5px;
     text-decoration: none;
-    display: inline-block;
     float: right;
 }
 
@@ -79,21 +77,37 @@ li {
 
 li img {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.445);
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 li a {
-    color: black;
+    color: gray;
     text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    transition: color .2s;
 }
 
 footer {
     text-align: center;
     padding: 20px;
+    background-color: black;
+    color: white;
+    height: 60px;
 }
 
 footer a {
-    color: black;
+    color: white;
+    float: right;
+    margin: 0px 20px;
+}
 
+footer p {
+    float: left;
 }
 ul {
     margin-top: 30px;
